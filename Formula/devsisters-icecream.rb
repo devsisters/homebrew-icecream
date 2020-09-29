@@ -1,8 +1,8 @@
 class DevsistersIcecream < Formula
   desc "Icecc forked from icecc/icecream"
   homepage "https://en.opensuse.org/Icecream"
-  url "https://github.com/devsisters/icecream/archive/v1.4.90-devsisters.tar.gz"
-  sha256 "a5f31170d8b03a7bf8673a95bff4a1e0cbba406cd168fff992df203346da460c"
+  url "https://github.com/devsisters/icecream/archive/1.4.1-devsisters.tar.gz"
+  sha256 "8a1ff0f9eda738fab3be61335c6f6c1fa216f27466027309a5c953a6a82f91aa"
   license "GPL-2.0"
 
   bottle do
