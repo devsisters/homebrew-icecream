@@ -1,8 +1,8 @@
 class DevsistersIcecream < Formula
   desc "Icecc forked from icecc/icecream"
   homepage "https://en.opensuse.org/Icecream"
-  url "https://github.com/devsisters/icecream/archive/1.4.1-devsisters.tar.gz"
-  sha256 "8a1ff0f9eda738fab3be61335c6f6c1fa216f27466027309a5c953a6a82f91aa"
+  url "https://github.com/devsisters/icecream/archive/v1.4.90-devsisters.1.tar.gz"
+  sha256 "baa7035c1ae1f4f4484f813add3650de1c22c4a38cd8c5a27d34ac0af9b81e64"
   license "GPL-2.0"
 
   bottle do
@@ -16,9 +16,9 @@ class DevsistersIcecream < Formula
   depends_on "automake" => :build
   depends_on "docbook-xsl" => :build
   depends_on "docbook2x" => :build
-  depends_on "libarchive"
   depends_on "libtool" => :build
   depends_on "libxslt" => :build
+  depends_on "libarchive"
   depends_on "lzo"
   depends_on "pkg-config"
   depends_on "zstd"

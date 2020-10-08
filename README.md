@@ -1,9 +1,9 @@
-# Devsisters Cro
+# Devsisters Icecream
 
 ## How do I install these formulae?
-`brew install devsisters/cro/<formula>`
+`brew install devsisters/icecream/<formula>`
 
-Or `brew tap devsisters/cro` and then `brew install <formula>`.
+Or `brew tap devsisters/icecream` and then `brew install <formula>`.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
