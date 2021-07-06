@@ -6,9 +6,9 @@ class DevsistersIcecream < Formula
   license "GPL-2.0"
 
   bottle do
-    sha256 "666f827a6a686e6d2e81dc1d0eb5aae8374f01d7d1524ef6c695e3bf207c4af5" => :catalina
-    sha256 "fb94b2d8e763469a2b0112523f89496f4a81e22ed9b7290f4280178f726853da" => :mojave
-    sha256 "6cc11bcddd969e9aeb7e83692e9714d5891f0530bacbc1c52b019b298bce3d24" => :high_sierra
+    sha256 catalina: "666f827a6a686e6d2e81dc1d0eb5aae8374f01d7d1524ef6c695e3bf207c4af5"
+    sha256 mojave: "fb94b2d8e763469a2b0112523f89496f4a81e22ed9b7290f4280178f726853da"
+    sha256 high_sierra: "6cc11bcddd969e9aeb7e83692e9714d5891f0530bacbc1c52b019b298bce3d24"
   end
 
   depends_on "asciidoc" => :build
